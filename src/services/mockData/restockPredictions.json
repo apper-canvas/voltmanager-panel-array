@@ -1,0 +1,37 @@
+[
+  {
+    "productId": "3",
+    "currentStock": 5,
+    "predictedDemand": 45,
+    "suggestedOrder": 90,
+    "confidence": 0.92
+  },
+  {
+    "productId": "2",
+    "currentStock": 15,
+    "predictedDemand": 18,
+    "suggestedOrder": 25,
+    "confidence": 0.85
+  },
+  {
+    "productId": "1",
+    "currentStock": 85,
+    "predictedDemand": 35,
+    "suggestedOrder": 50,
+    "confidence": 0.78
+  },
+  {
+    "productId": "4",
+    "currentStock": 42,
+    "predictedDemand": 22,
+    "suggestedOrder": 30,
+    "confidence": 0.71
+  },
+  {
+    "productId": "5",
+    "currentStock": 8,
+    "predictedDemand": 4,
+    "suggestedOrder": 10,
+    "confidence": 0.65
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "RO-001",
+    "customerName": "Robert Brown",
+    "customerPhone": "(555) 111-2222",
+    "deviceInfo": "Industrial Motor 5HP",
+    "issue": "Motor not starting, burning smell",
+    "parts": [
+      {
+        "productId": "2",
+        "name": "Circuit Breaker 20A",
+        "quantity": 1,
+        "price": 45.00
+      }
+    ],
+    "laborCost": 150.00,
+    "status": "in-progress",
+    "technicianId": "TECH001",
+    "createdDate": "2024-01-15T10:00:00Z"
+  },
+  {
+    "id": "RO-002",
+    "customerName": "Jennifer Garcia",
+    "customerPhone": "(555) 333-4444",
+    "deviceInfo": "Residential Panel Box",
+    "issue": "Frequent circuit trips",
+    "parts": [
+      {
+        "productId": "2",
+        "name": "Circuit Breaker 20A",
+        "quantity": 2,
+        "price": 45.00
+      }
+    ],
+    "laborCost": 200.00,
+    "status": "pending",
+    "technicianId": "TECH002",
+    "createdDate": "2024-01-14T14:30:00Z"
+  },
+  {
+    "id": "RO-003",
+    "customerName": "David Martinez",
+    "customerPhone": "(555) 555-6666",
+    "deviceInfo": "Office Lighting System",
+    "issue": "Multiple LED bulbs flickering",
+    "parts": [
+      {
+        "productId": "1",
+        "name": "LED Bulb 9W",
+        "quantity": 12,
+        "price": 12.50
+      }
+    ],
+    "laborCost": 120.00,
+    "status": "completed",
+    "technicianId": "TECH001",
+    "createdDate": "2024-01-12T08:45:00Z"
+  },
+  {
+    "id": "RO-004",
+    "customerName": "Amanda Taylor",
+    "customerPhone": "(555) 777-8888",
+    "deviceInfo": "Kitchen Outlets",
+    "issue": "GFCI outlets not working",
+    "parts": [
+      {
+        "productId": "4",
+        "name": "Power Outlet Duplex",
+        "quantity": 4,
+        "price": 8.75
+      }
+    ],
+    "laborCost": 180.00,
+    "status": "pending",
+    "technicianId": "TECH003",
+    "createdDate": "2024-01-13T16:20:00Z"
+  }
+]

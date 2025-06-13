@@ -1,0 +1,92 @@
+[
+  {
+    "id": "INV-001",
+    "date": "2024-01-15T14:30:00Z",
+    "customerName": "John Smith",
+    "customerPhone": "(555) 123-4567",
+    "items": [
+      {
+        "productId": "1",
+        "name": "LED Bulb 9W",
+        "quantity": 4,
+        "price": 12.50
+      },
+      {
+        "productId": "4",
+        "name": "Power Outlet Duplex",
+        "quantity": 2,
+        "price": 8.75
+      }
+    ],
+    "subtotal": 67.50,
+    "tax": 5.40,
+    "total": 72.90,
+    "paymentMethod": "Credit Card"
+  },
+  {
+    "id": "INV-002",
+    "date": "2024-01-15T16:45:00Z",
+    "customerName": "Sarah Johnson",
+    "customerPhone": "(555) 987-6543",
+    "items": [
+      {
+        "productId": "5",
+        "name": "Ceiling Fan 52 inch",
+        "quantity": 1,
+        "price": 185.00
+      }
+    ],
+    "subtotal": 185.00,
+    "tax": 14.80,
+    "total": 199.80,
+    "paymentMethod": "Cash"
+  },
+  {
+    "id": "INV-003",
+    "date": "2024-01-14T11:20:00Z",
+    "customerName": "Mike Davis",
+    "customerPhone": "(555) 456-7890",
+    "items": [
+      {
+        "productId": "2",
+        "name": "Circuit Breaker 20A",
+        "quantity": 3,
+        "price": 45.00
+      },
+      {
+        "productId": "3",
+        "name": "Electrical Wire 12AWG",
+        "quantity": 50,
+        "price": 1.25
+      }
+    ],
+    "subtotal": 197.50,
+    "tax": 15.80,
+    "total": 213.30,
+    "paymentMethod": "Check"
+  },
+  {
+    "id": "INV-004",
+    "date": "2024-01-13T09:15:00Z",
+    "customerName": "Lisa Wilson",
+    "customerPhone": "(555) 321-0987",
+    "items": [
+      {
+        "productId": "1",
+        "name": "LED Bulb 9W",
+        "quantity": 8,
+        "price": 12.50
+      },
+      {
+        "productId": "4",
+        "name": "Power Outlet Duplex",
+        "quantity": 6,
+        "price": 8.75
+      }
+    ],
+    "subtotal": 152.50,
+    "tax": 12.20,
+    "total": 164.70,
+    "paymentMethod": "Credit Card"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "LED Bulb 9W",
+    "sku": "LED-9W-001",
+    "category": "Lighting",
+    "price": 12.50,
+    "cost": 8.00,
+    "stock": 85,
+    "minStock": 20,
+    "supplierId": "SUP001",
+    "warrantyMonths": 24
+  },
+  {
+    "id": "2",
+    "name": "Circuit Breaker 20A",
+    "sku": "CB-20A-002",
+    "category": "Safety",
+    "price": 45.00,
+    "cost": 28.00,
+    "stock": 15,
+    "minStock": 10,
+    "supplierId": "SUP002",
+    "warrantyMonths": 60
+  },
+  {
+    "id": "3",
+    "name": "Electrical Wire 12AWG",
+    "sku": "WIRE-12AWG-003",
+    "category": "Wiring",
+    "price": 1.25,
+    "cost": 0.80,
+    "stock": 5,
+    "minStock": 50,
+    "supplierId": "SUP001",
+    "warrantyMonths": 12
+  },
+  {
+    "id": "4",
+    "name": "Power Outlet Duplex",
+    "sku": "OUTLET-DUP-004",
+    "category": "Outlets",
+    "price": 8.75,
+    "cost": 5.50,
+    "stock": 42,
+    "minStock": 15,
+    "supplierId": "SUP003",
+    "warrantyMonths": 12
+  },
+  {
+    "id": "5",
+    "name": "Ceiling Fan 52 inch",
+    "sku": "FAN-52-005",
+    "category": "Fans",
+    "price": 185.00,
+    "cost": 120.00,
+    "stock": 8,
+    "minStock": 5,
+    "supplierId": "SUP002",
+    "warrantyMonths": 36
+  }
+]

@@ -37,7 +37,7 @@ const repairOrderService = {
     return { ...data[index] };
   },
 
-  async delete(id) {
+async delete(id) {
     await delay(200);
     const index = data.findIndex(item => item.id === id);
     if (index === -1) {
@@ -45,7 +45,6 @@ const repairOrderService = {
     }
     data.splice(index, 1);
     return true;
-return true;
   },
 
   async getPendingOrders() {

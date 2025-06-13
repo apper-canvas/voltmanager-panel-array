@@ -37,7 +37,7 @@ const repairOrderService = {
     return { ...data[index] };
   },
 
-async delete(id) {
+async function delete(id) {
     await delay(200);
     const index = data.findIndex(item => item.id === id);
     if (index === -1) {

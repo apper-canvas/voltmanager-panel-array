@@ -4,6 +4,7 @@ import POS from '@/components/pages/POS';
 import Orders from '@/components/pages/Orders';
 import Analytics from '@/components/pages/Analytics';
 import Settings from '@/components/pages/Settings';
+import Calendar from '@/components/pages/Calendar';
 
 export const routes = {
   dashboard: {
@@ -41,14 +42,20 @@ export const routes = {
     icon: 'TrendingUp',
     component: Analytics
   },
-  settings: {
+settings: {
     id: 'settings',
     label: 'Settings',
     path: '/settings',
     icon: 'Settings',
     component: Settings
+  },
+  calendar: {
+    id: 'calendar',
+    label: 'Calendar',
+    path: '/calendar',
+    icon: 'Calendar',
+    component: Calendar
   }
-};
 
 export const routeArray = Object.values(routes);
 export default routes;

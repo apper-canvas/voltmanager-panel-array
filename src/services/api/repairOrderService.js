@@ -45,12 +45,32 @@ const repairOrderService = {
     }
     data.splice(index, 1);
     return true;
+return true;
   },
 
   async getPendingOrders() {
     await delay(200);
     return data.filter(order => order.status === 'pending').map(o => ({ ...o }));
+  },
+
+  async assignTechnician(orderId, technicianId) {
+    await delay(200);
+    const index = data.findIndex(item => item.id === orderId);
+    if (index === -1) {
+      throw new Error('Repair order not found');
+    }
+    data[index] = { ...data[index], assignedTechnician: technicianId };
+    return { ...data[index] };
+  },
+
+  async updateTimeSpent(orderId, timeSpent) {
+    await delay(200);
+    const index = data.findIndex(item => item.id === orderId);
+    if (index === -1) {
+      throw new Error('Repair order not found');
+    }
+    data[index] = { ...data[index], timeSpent };
+    return { ...data[index] };
   }
-};
 
 export default repairOrderService;

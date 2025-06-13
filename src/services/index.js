@@ -1,4 +1,13 @@
-export { default as productService } from './api/productService';
-export { default as invoiceService } from './api/invoiceService';
-export { default as repairOrderService } from './api/repairOrderService';
-export { default as restockPredictionService } from './api/restockPredictionService';
+import invoiceService from './api/invoiceService';
+import productService from './api/productService';
+import repairOrderService from './api/repairOrderService';
+import restockPredictionService from './api/restockPredictionService';
+import technicianService from './api/technicianService';
+
+export {
+  invoiceService,
+  productService,
+  repairOrderService,
+  restockPredictionService,
+  technicianService
+};
